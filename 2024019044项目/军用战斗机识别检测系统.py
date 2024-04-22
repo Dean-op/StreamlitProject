@@ -66,8 +66,8 @@ def main():
     st.title("军用战斗机识别检测系统")
     path = "2024019044项目/runs/detect/train/weights/best.pt"
     my_model = YOLO(path)
+    st.write("支持检测的战斗机型号:E2、J20、B2、F14、Tornado、F4、B52、JAS39、Mirage2000")
     img_file_buffer = st.file_uploader('上传图像(jpg、jpeg、 png、 gif)或视频(mp4)', type=["jpg", "jpeg", "png", "gif", "mp4"])
-    st.write("支持战斗机型号:E2 J20 B2 F14 Tornado F4 B52 JAS39 Mirage2000")
     button = st.button("提交")
 
     if button:
