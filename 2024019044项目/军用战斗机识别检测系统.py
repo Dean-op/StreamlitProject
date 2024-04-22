@@ -6,6 +6,7 @@ from PIL import Image
 import cv2
 import os
 import tempfile
+import dill
 
 
 def predictVideo(uploaded_file, model):
