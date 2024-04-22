@@ -1,5 +1,6 @@
 ultralytics
 streamlit
-torch>=2.1.0
-torchvision>=0.16.0
-numpy>=1.24.1
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.24.1
+opencv-python-headless==4.9.0.80
